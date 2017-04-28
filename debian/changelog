@@ -1,3 +1,11 @@
+samba (2:4.4.5+dfsg-2ubuntu5.5~aurex1) xenial; urgency=medium
+
+  * Rebuild for aurex 16-04 (xenial). This version provides the option
+    "--remove-other-dead-server" for the command "samba-tool domain demote ..."
+    to demote an offline domain controller
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 28 Apr 2017 13:41:43 +0200
+
 samba (2:4.4.5+dfsg-2ubuntu5.5) yakkety-security; urgency=medium
 
   * SECURITY REGRESSION: follow symlinks issue (LP: #1675698)
